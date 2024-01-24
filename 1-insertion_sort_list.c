@@ -1,4 +1,4 @@
-#include "sorth.h"
+#include "sort.h"
 
 /**
  * swap_nodes - fn Swap two nodes in a listint_t doubly-linked list.
@@ -22,7 +22,7 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 }
 
 /**
- * insertion_sort_list - fn Sorts a doubly linked list of integers
+ * insertion_sort_list - fnSorts a doubly linked list of integers
  *                       using the insertion sort algorithm.
  * @list: A pointer to the head of a doubly-linked list of integers.
  *
